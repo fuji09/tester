@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "autotest">
+  <test name = "test01">
+    <classes>
+     <class name ="autotest.addTest"/>
+    </classes> 
+  </test>
+  <test name = "test02">
+    <classes>
+     <class name = "autotest.subtractTest"/>
+    </classes> 
+  </test>
+</suite>
