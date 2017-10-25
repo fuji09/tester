@@ -1,11 +1,1 @@
-<configuration>
-
-? ? ? ? ? ? ? ? ? ? <suiteXmlFilles>
-
-<suiteXmlFile>testng.xml</suiteXmlFile>
-
-? ? ? ? ? ? ? ? ? ? </suiteXmlFiles>
-
-? ? ? ? ? ? ? ? ? ? <reportsDirectory>./result/test-report</reportsDirectory>
-
-? ? ? ? ? ? ? ? </configuration>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"> <modelVersion>4.0.0</modelVersion> <groupId>com.velcro7.framework</groupId> <artifactId>velcro7-base</artifactId> <packaging>jar</packaging> <version>0.1-PROTOTYPE</version> <name>velcro7-base</name> <url>http://maven.apache.org</url> <build> <plugins> <plugin> <artifactId>maven-resources-plugin</artifactId> <configuration> <encoding>UTF-8</encoding> </configuration> </plugin> <plugin> <artifactId>maven-javadoc-plugin</artifactId> <configuration> <encoding>UTF-8</encoding> </configuration> </plugin> <plugin> <artifactId>maven-compiler-plugin</artifactId> <configuration> <encoding>utf-8</encoding> <source>1.8</source> <target>1.8</target> </configuration> </plugin> <plugin> <artifactId>maven-surefire-plugin</artifactId> <configuration> <suiteXmlFiles> <suiteXmlFile>testng.xml</suiteXmlFile> </suiteXmlFiles> </configuration> </plugin> </plugins> </build> <dependencies> <dependency> <groupId>org.testng</groupId> <artifactId>testng</artifactId> <version>5.8</version> <scope>test</scope> <classifier>jdk18</classifier> </dependency> </dependencies></project>
